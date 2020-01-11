@@ -1,2 +1,9 @@
 
-The Features S1-S6 are 6 centers used in Paper, L is left and R is right
+The hippocampal radiomics features was extracted by an matlab scirpt (radiomics_main_feature.m and radiomics_main_feature_wavelet.m),
+which included intensity-based features, shape-based features and texture-based features, across 8 wavelet-based frequency domains.
+
+After redundancy removal, 431 hippocampal features were used in each hemisphere. Single hemisphere radiomics features was stored in an excel file [S1~S6, (Left or Right)]. 
+N*M matrix was found in each file, the rows represent each sample, and the columns represent each feature (1-431, eg. Size, mean…). Detail defined of those features can be found in 10.1038/ncomms5006. 
+
+If the detail information of each subject can be help for your study, you can contact Yong Liu (yliu@nlpr.ia.ac.cn) to apply the detail information.
+
