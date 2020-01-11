@@ -1,4 +1,6 @@
-For each subject, T1 MRI scans were registered to the Montreal Neurological Institute (MNI) space using affine registration and resampled to 1 mm×1 mm×1 mm. The hippocampus was then segmented bilaterally using an revised segmentation method based on multi-atlas based local label learning (LLL), and you can download the toolkit in [https://www.nitrc.org/projects/locallabel]. 
+For each subject, T1 MRI scans were registered to the Montreal Neurological Institute (MNI) space using affine registration and
+resampled to 1 mm×1 mm×1 mm. The hippocampus was then segmented bilaterally using an revised segmentation method based on 
+multi-atlas based local label learning (LLL), and you can download the toolkit in [https://www.nitrc.org/projects/locallabel]. 
 
 Site 1-6 hip as the data which used in our paper, you can download the hippocampus [http://ddl.escience.cn/f/SaYs] map for your own study, 
 but remember connect corresponding author for detail information about the subjects.
