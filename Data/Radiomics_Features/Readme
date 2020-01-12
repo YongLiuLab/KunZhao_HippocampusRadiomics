@@ -6,5 +6,8 @@ which included intensity-based features, shape-based features and texture-based 
 *After redundancy removal, 431 hippocampal features were used in each hemisphere. Single hemisphere radiomics features was stored in an excel file [S1~S6, (Left or Right)]. 
 N*M matrix was found in each file, the rows represent each sample, and the columns represent each feature (1-431, eg. Size, mean…). Detail defined of those features can be found in 10.1038/ncomms5006. 
 
-*If the detail information of each subject can be help for your study, you can contact Yong Liu (yliu@nlpr.ia.ac.cn) to apply the detail information.
+If you want to test your ML method with those feature, I suggest to divided the training dataset and testing dataset with center id, eg.S1-S5 as a training data, and S6 as testing data. Inter-site corss validation can support the high robustness for the classification results.
+
+*If the detail information(eg. age, gender, MMSE, AVLT and so on) of each subject can be help for your study, you can contact Yong Liu (yliu@nlpr.ia.ac.cn) to apply the detail information.
 1
+ 
