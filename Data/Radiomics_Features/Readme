@@ -8,6 +8,5 @@ N*M matrix was found in each file, the rows represent each sample, and the colum
 
 If you want to test your ML method with those feature, I suggest to divided the training dataset and testing dataset with center id, eg.S1-S5 as a training data, and S6 as testing data. Inter-site corss validation can support the high robustness for the classification results.
 
-*If the detail information(eg. age, gender, MMSE, AVLT and so on) of each subject can be help for your study, you can contact Yong Liu (yliu@nlpr.ia.ac.cn) to apply the detail information.
-1
+*If the detail information(eg. age, gender, MMSE, AVLT and so on) of each subject can be help for your study, you can contact Yong Liu ([yliu@nlpr.ia.ac.cn]) to apply the detail information.
  
