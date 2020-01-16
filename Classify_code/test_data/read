@@ -1,1 +1,5 @@
 
+For the test datas, ADNI2IN means ADNI as training data and IN-house as testing data. 
+In this part, we consider the IN-house as a multi-center data, the result showed estimetaed one by one(Site1-Site6), so the data_all = [Norm(Site1)...Norm(Stie6)]
+However, When In-house data as training data, we consider the IN-house dataset as a entirety, so the data_all = Norm([Site1-Site6]).
+The result about twos was very closely. 
